@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="TBButtons">#664FA3</color>
+    <color name="TBRed">#FF0000</color>
+    <color name="BGRed">#FF7F7F</color>
+    <color name="TBGreen">#00B608</color>
+    <color name="BGGreen">#7EFF84</color>
+    <color name="TBYellow">#FDE800</color>
+    <color name="BGYellow">#FFF57E</color>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidNovigation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="trafficLight">Светофор</string>
+    <string name="redText">Стой!</string>
+    <string name="yellowText">Внимание!</string>
+    <string name="greenText">Движение разрешено!</string>
+    <string name="exit">Exit</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ButtonsFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/TBButtons"
+        app:title="@string/trafficLight" />
+
+    <Button
+        android:id="@+id/redBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="@color/TBRed"
+        android:text="@string/redText"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:transitionName="redBTN" />
+
+    <Button
+        android:id="@+id/yellowBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="@color/TBYellow"
+        android:text="@string/yellowText"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:transitionName="yellowBTN" />
+
+    <Button
+        android:id="@+id/greenBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="15dp"
+        android:backgroundTint="@color/TBGreen"
+        android:text="@string/greenText"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:transitionName="greenBTN" />
+
+</LinearLayout>
